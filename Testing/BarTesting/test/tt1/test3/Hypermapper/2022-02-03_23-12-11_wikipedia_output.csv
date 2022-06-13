@@ -1,0 +1,6 @@
+shared_buffers,work_mem,random_page_cost,effective_io_concurrency,max_wal_size,max_parallel_workers_per_gather,max_parallel_workers,max_worker_processes,checkpoint_timeout,checkpoint_completion_target,Throughput,Timestamp
+280,6144,1.5,1,64,16,4,4,10,0.9,-1593.3341013598824,40099263
+3584,6990,1.1,400,20,8,4,4,5,0.9,-1441.7873077035142,40963616
+4608,6990,1.5,1,64,16,4,4,5,0.9,-1421.329727272883,41832380
+1536,6990,6.0,200,64,8,8,4,5,0.9,-1411.3993231063082,42700123
+7168,4096,2,200,64,2,4,4,10,0.9,-1416.2553146884409,43562290

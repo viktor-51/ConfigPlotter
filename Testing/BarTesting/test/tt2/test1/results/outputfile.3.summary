@@ -1,0 +1,21 @@
+{
+ "Benchmark Type": "tpcc",
+ "Current Timestamp (milliseconds)": 1642683143403,
+ "DBMS Type": "postgres",
+ "DBMS Version": "14.1",
+ "Latency Distribution": {
+  "Minimum Latency (milliseconds)": 0.558,
+  "25th Percentile Latency (milliseconds)": 17.396,
+  "Median Latency (milliseconds)": 30.27,
+  "Average Latency (milliseconds)": 39.82223341113116,
+  "75th Percentile Latency (milliseconds)": 56.513,
+  "90th Percentile Latency (milliseconds)": 76.576,
+  "95th Percentile Latency (milliseconds)": 93.999,
+  "99th Percentile Latency (milliseconds)": 139.647,
+  "Maximum Latency (milliseconds)": 319.939
+ },
+ "Throughput (requests/second)": 1254.9804791121614,
+ "isolation": "TRANSACTION_READ_COMMITTED",
+ "scalefactor": "200",
+ "terminals": "50"
+}

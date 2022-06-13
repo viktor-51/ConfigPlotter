@@ -1,0 +1,13 @@
+#!/bin/bash
+for r in first second
+do
+	for w in wikipedia chbenchmark
+	do 	
+		for i in {0..20}
+		do
+			path=$r/$w/iteration_$i
+  			mkdir -p "$path" 
+			touch "$path/file"
+		done
+	done
+done 
